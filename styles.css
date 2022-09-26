@@ -1,0 +1,136 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.s1{
+	margin-top: 500px;
+
+}
+.profpic{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+
+	margin-top: 50px;
+	float: left;
+}
+
+.content-container{
+	display: flex;
+	margin-top: 45px;
+	margin-left: 170px;
+	
+}
+
+
+.info{
+	font-size: 22px;
+}
+
+
+.profile-link{
+	text-decoration: none;
+}
+#flex-buttons{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+#color {
+	background: #FF4742;
+	border: 1px solid #FF4742;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: proxima nova,sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 16px;
+	min-height: 40px;
+	outline: 0;
+	padding: 12px 14px;
+	text-align: center;
+	touch-action: manipulation;
+	vertical-align: middle;
+  }
+  
+  #color:hover, #color:active {
+	background-color: initial;
+	color: #FF4742;
+  }
+  
+  #color:active {
+	opacity: .5;
+  }
+
+
+#place:hover {
+	background-color: #2c974b;
+  }
+  
+  #place:focus {
+	box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+	outline: none;
+  }
+  
+  #place:active {
+	background-color: #298e46;
+	box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+  #ritual{
+	padding: 6px 14px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+	border-radius: 6px;
+	color: #3D3D3D;
+	background: #fff;
+	border: none;
+	box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+	user-select: none;
+	-webkit-user-select: none;
+	
+  }
+  
+  #ritual:focus{
+	box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+	outline: 0;
+  }
