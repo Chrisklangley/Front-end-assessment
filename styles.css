@@ -72,7 +72,7 @@ img {
 }
 
 
-#color {
+.btn1 {
 	background: #FF4742;
 	border: 1px solid #FF4742;
 	border-radius: 6px;
@@ -93,31 +93,31 @@ img {
 	vertical-align: middle;
   }
   
-  #color:hover, #color:active {
+  .btn1:hover, #color:active {
 	background-color: initial;
 	color: #FF4742;
   }
   
-  #color:active {
+  .btn1:active {
 	opacity: .5;
   }
 
 
-#place:hover {
+.btn2:hover {
 	background-color: #2c974b;
   }
   
-  #place:focus {
+  .btn2:focus {
 	box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
 	outline: none;
   }
   
-  #place:active {
+  .btn2:active {
 	background-color: #298e46;
 	box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
   }
 
-  #ritual{
+  .btn3{
 	padding: 6px 14px;
 	font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
 	border-radius: 6px;
@@ -130,7 +130,7 @@ img {
 	
   }
   
-  #ritual:focus{
+  .btn3:focus{
 	box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
 	outline: 0;
   }
