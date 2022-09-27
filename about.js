@@ -5,7 +5,7 @@ const subBtn = document.querySelector('#subbutton')
 
 	evt.preventDefault();
 
-	alert("Submition was a success! we appreciate you joining the fight!")
+	alert("wow you did that so fast! i bet you type over 70 words a minute")
 	
 }
 subBtn.addEventListener('click', infoAlert)
